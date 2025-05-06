@@ -1,0 +1,13 @@
+{
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "ms-vscode.vscode-typescript-next",
+          "github.copilot"
+          // Add other extension IDs here
+        ]
+      }
+    }
+  }
