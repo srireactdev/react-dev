@@ -16,11 +16,24 @@ npm install & npm run dev
 ![Step 3: Select a variant: javascript](image-2.png)
 
 
-Add to vite config file
+Replace to vite config file
+```
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  server: {
+    allowedHosts: true
+  },
+  plugins: [react()],
+})
+
+
+```
+or add 
 ```
 server: {
-    allowedHosts: ['all', // Allow all hosts
-      "5173-srireactdev-reactdev-lxd8iup6e2l.ws-us118.gitpod.io"
-    ]
-  }
-```
+    allowedHosts: true
+  },
+``
