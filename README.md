@@ -1,6 +1,6 @@
 # react-dev
 
-![alt text](image.png)
+![alt text](image.png)  
 npm create vite@4.1.0 
 Step 1: Asked to enter the project name: reactpro  
 Step 2: Select a framework: react  
