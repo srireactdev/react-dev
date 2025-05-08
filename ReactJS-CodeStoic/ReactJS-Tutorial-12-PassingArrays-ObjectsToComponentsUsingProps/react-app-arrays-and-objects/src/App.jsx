@@ -1,9 +1,18 @@
-import HelloWorld from "./components/HelloWorld"
+import DisplayPerson from "./components/DisplayPerson";
+
 function App() {
-  const seatNumbers = [1, 4, 7];
+ const person = {
+  name: "Harini",
+  message: "I love you !",
+  emoji : "❤️",
+  seatNumbers: [1, 3, 4]
+ }
+ 
+
   return (
+   
     <div className="App">
-      <HelloWorld name="Srinivas" message="Hi there" emoji="❤️" seatNumbers ={seatNumbers}/>
+      <DisplayPerson person={person}/>
     </div>
   )
 }
