@@ -2,6 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import ConditionalComponent from './components/ConditionalComponents'
+import ConditionalComponentsUsingTernaryOperation from './components/ConditionalComponentsUsingTernaryOperation'
+import ConditionalComponentsUsingTernaryOperationComponents from './components/ConditionalComponentsUsingTernaryOperationComponents'
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +25,12 @@ function App() {
      </div>
      <div>
      <ConditionalComponent isDisplay = {false}/>
+     </div>
+     <div>
+     <ConditionalComponentsUsingTernaryOperation isDisplay = {false}/>
+     </div>
+     <div>
+     <ConditionalComponentsUsingTernaryOperationComponents isDisplay = {false}/>
      </div>
     </div>
   )
