@@ -2,7 +2,7 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "workbench.menuBar.visibility": "default",
+        "workbench.menuBar.visibility": "visible",
         "workbench.activityBar.visible": true
       },
       "extensions": [
