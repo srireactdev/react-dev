@@ -31,10 +31,17 @@ export default defineConfig({
 
 
 ```
-or add   
+or add vite.config.js
 ```
 server: {
     allowedHosts: true
-  },
+  }
 ``
+
+How to define a simple jsx component.  
+```
+export default function Fruit() {
+  return <div>Fruit Works</>
+}
+
 
