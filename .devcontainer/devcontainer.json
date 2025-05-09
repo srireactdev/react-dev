@@ -1,6 +1,10 @@
 {
   "customizations": {
     "vscode": {
+      "settings": {
+        "workbench.menuBar.visibility": "default",
+        "workbench.activityBar.visible": true
+      },
       "extensions": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
@@ -9,9 +13,5 @@
         // Add other extension IDs here
       ]
     }
-  },
-  "settings": {
-    "workbench.menuBar.visibility": "default",
-    "workbench.activityBar.visible": true
   }
 }
